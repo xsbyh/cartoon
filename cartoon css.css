@@ -1,0 +1,25 @@
+body {
+  background-color: antiquewhite;
+}
+h1 {
+  font-size: 30px;
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lila {
+  color: blueviolet;
+}
+.lila.uppercase {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span {
+  color: aquamarine;
+}
+p span {
+  font-style: italic;
+  color: blueviolet;
+}
