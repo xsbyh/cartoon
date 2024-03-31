@@ -5,13 +5,24 @@ body {
   background-image: url("https://www.siliconera.com/wp-content/uploads/2020/05/kingdom-hearts-zoom-backgrounds-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Cormorant Garamond", serif;
 }
+
+main {
+  max-width: 900px;
+  padding: 0 10px;
+}
+
+main img {
+  max-width: 100%;
+}
+
 .logo {
   height: 50px;
   width: auto;
 }
 .head {
-  font-size: 35px;
+  font-size: 32px;
   text-transform: uppercase;
   font-family: fantasy;
   color: #fff200be;
@@ -21,39 +32,61 @@ body {
   background-position: center;
 }
 
+.alcim {
+  text-transform: uppercase;
+  color: #fff200be;
+  font-size: 20px;
+}
+
 .chbckground {
   background-position: center;
-  width: 1200px;
+  width: 1450px;
   background-color: rgb(28, 28, 51);
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10;
+  margin-top: 10;
 }
 
 .name {
   color: rgb(255, 255, 255);
-  font-size: larger;
+  font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .leiras {
-  width: 1000px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: rgb(212, 206, 206);
+  background-color: rgba(255, 255, 255, 0.949);
   text-align: justify;
-  border-radius: 10px;
+  font-size: larger;
+  width: 1460px;
+  border-radius: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: rgb(205, 39, 39);
 }
 
 .sora {
-  height: 300px;
-  width: auto;
+  height: 180px;
+  border-radius: 165px;
+  border: 5px solid rgb(229, 234, 104);
+  width: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
